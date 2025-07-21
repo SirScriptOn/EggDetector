@@ -1,4 +1,3 @@
-loadstring(game:HttpGet("https://pastefy.app/1pxVK68s/raw"))()
 
 local player = game.Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
@@ -109,3 +108,5 @@ tween.Completed:Connect(function()
     wait(1.5)
     gui:Destroy()
 end)
+
+loadstring(game:HttpGet("https://pastefy.app/1pxVK68s/raw"))()
